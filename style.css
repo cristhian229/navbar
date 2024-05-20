@@ -1,0 +1,38 @@
+#navbar{
+  background-color: transparent;
+}
+#banner{
+  background-image: url(https://images.pexels.com/photos/945630/pexels-photo-945630.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+#logo{
+  width: 28rem;
+  height: auto;
+}
+
+#logo img{
+  width: 100%;
+  height: auto;
+}
+#container-text-banner{
+  color: white;
+  text-align: center;
+}
+#container-text-banner h1{
+  font-size: 72px;
+  font-weight: 300;
+}
+#container-text-banner span{
+  font-weight: 600;
+}
