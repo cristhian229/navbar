@@ -144,14 +144,14 @@
 
 
 .card-1 {
-  background: linear-gradient(to top, RGBA(0,0,0,0.1), RGBA(0,0,0,0.9)), url('https://images.pexels.com/photos/16957839/pexels-photo-16957839/free-photo-of-paisaje-hombre-granjero-retrato.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background: url('https://images.pexels.com/photos/16957839/pexels-photo-16957839/free-photo-of-paisaje-hombre-granjero-retrato.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   
 }
 .card-2 {
-   background: linear-gradient(to top, RGBA(0,0,0,0.2), RGBA(0,0,0,1)), url('https://images.pexels.com/photos/20131734/pexels-photo-20131734/free-photo-of-blanco-y-negro-mujer-sentado-ventanas.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+   background: url('https://images.pexels.com/photos/20131734/pexels-photo-20131734/free-photo-of-blanco-y-negro-mujer-sentado-ventanas.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
