@@ -75,15 +75,97 @@
   gap: 5rem;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 #stats-text{
   color: #F5E6C5;
   width: 48%;
 }
 #iframe{
-  width: 80%;
+  width: 65%;
+  height: 28rem;
 }
 #iframe iframe{
   width: 100%;
   height: 100%;
 }
+
+.hero-section {
+  padding: 2rem 0;
+  background-color: #3F422F;
+}
+
+.hero-section_title {
+  font-size: 4rem;
+  line-height: 1.2;
+  text-align: center;
+  color: #F5E6C5;
+  font-weight: 400;
+}
+
+
+.hero-section_cards {
+  padding: 7rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.hero-section_card {
+  min-height: 450px;
+  border-radius: 12px;
+}
+
+.hero-section_card_content {
+  padding: 1.6rem;
+  height: 100%;
+  opacity: 0;
+  background: RGBA(0,0,0,0.7);
+  color: white;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.hero-section_card_content:hover{
+  opacity: 1;
+}
+.hero-section_card_content > *{
+  transform: translateY(25px);
+  transition: transform 0.4s;
+}
+.hero-section_card_content:hover > *{
+  transform: translateY(0px);
+}
+
+.hero-section_card_content h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-bottom: 1.6rem;
+}
+
+
+.card-1 {
+  background: linear-gradient(to top, RGBA(0,0,0,0.1), RGBA(0,0,0,0.9)), url('https://images.pexels.com/photos/16957839/pexels-photo-16957839/free-photo-of-paisaje-hombre-granjero-retrato.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.card-2 {
+   background: linear-gradient(to top, RGBA(0,0,0,0.2), RGBA(0,0,0,1)), url('https://images.pexels.com/photos/20131734/pexels-photo-20131734/free-photo-of-blanco-y-negro-mujer-sentado-ventanas.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card-3 {
+  background: url('https://images.pexels.com/photos/3019836/pexels-photo-3019836.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+.card-4 {
+  background: url('https://images.pexels.com/photos/696205/pexels-photo-696205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
