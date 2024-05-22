@@ -180,3 +180,15 @@
   background-position: center;
 }
 
+.labels{
+  display: flex;
+  flex-direction: column;
+}
+form input, form textarea{
+  border: solid 2px black;
+  padding: 7px;
+  margin: 10px 0;
+  font-size: 18px;
+  border-radius: 15px;
+}
+
