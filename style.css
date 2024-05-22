@@ -38,23 +38,26 @@
   height: auto;
 }
 #container-text-banner{
-  color: white;
+  color: #F5E6C5;
   text-align: center;
 }
 #container-text-banner h1{
-  font-size: 72px;
+  font-size: 90px;
   font-weight: 300;
 }
 #container-text-banner span{
   font-weight: 600;
 }
 .about-us{
+  padding: 3rem 0;
   background-color: #F5E6C5;
   text-align: center;
   color: #3F422F;
 }
 .about-us h2{
-  font-size: 64px;
+  color: #D68B30;
+  font-size: 4rem;
+  line-height: 1.8;
 }
 .about-us p{
   font-size: 34px;
@@ -92,20 +95,21 @@
 
 .hero-section {
   padding: 2rem 0;
-  background-color: #3F422F;
+  background-color:#F5E6C5 ;
 }
 
 .hero-section_title {
+  padding-top: 3rem;
   font-size: 4rem;
   line-height: 1.2;
   text-align: center;
-  color: #F5E6C5;
+  color:#D68B30 ;
   font-weight: 400;
 }
 
 
 .hero-section_cards {
-  padding: 7rem 0;
+  padding: 5rem 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1rem;
@@ -120,10 +124,12 @@
   padding: 1.6rem;
   height: 100%;
   opacity: 0;
-  background: RGBA(0,0,0,0.7);
-  color: white;
+  background: RGBA(0,0,0,0.8);
+  color: #F5E6C5;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  border-radius: 12px;
+  cursor: pointer;
 }
 .hero-section_card_content:hover{
   opacity: 1;
@@ -139,8 +145,13 @@
 .hero-section_card_content h2 {
   font-size: 2rem;
   font-weight: 500;
-  padding-bottom: 1.6rem;
+  padding-bottom: 1rem;
 }
+
+.hero-section_card_content p{
+  font-size:22px ;
+  font-weight: 300;
+} 
 
 
 .card-1 {
@@ -151,7 +162,7 @@
   
 }
 .card-2 {
-   background: url('https://images.pexels.com/photos/20131734/pexels-photo-20131734/free-photo-of-blanco-y-negro-mujer-sentado-ventanas.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+   background: url('https://images.unsplash.com/photo-1605000797499-95a51c5269ae?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
